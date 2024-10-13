@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .container{
+    @apply max-w-screen-lg flex flex-col items-center mx-auto md:my-16 max-md:px-8 max-md:mt-2
+  }
+
+  .filter-control{
+    @apply flex md:flex-row flex-col justify-between md:items-center w-full
+  }
+
+  .heading{
+    @apply text-4xl font-extrabold text-gray-900 md:text-5xl mt-0 pb-2 max-md:mb-2
+  }
+
+  .searh {
+    @apply font-sans text-center
+  }
+
+  .searchbar{
+    @apply relative w-[500px]  p-2 border border-gray-400 rounded-full hover:shadow-md max-md:w-full max-md:mb-3
+  }
+  
+  .search-icon {
+    @apply absolute top-1/2 transform -translate-y-1/2 text-[18px] text-gray-400
+  }
+
+  .search-input {
+    @apply w-full h-full border-none outline-none pl-6
+  }
+  
+  .search-icon-svg {
+    @apply w-5 h-5
+  }
+  
+  .filter-button{
+    @apply px-4 py-2 rounded-lg focus:outline-none max-md:py-1 max-md:px-2 max-md:mb-5
+  }
+
+  .bg-5{
+    @apply bg-green-700 hover:bg-green-800 text-white
+  }
+
+  .bg-4{
+    @apply bg-gray-300 hover:bg-gray-400 text-black
+  }
+
+  .task-item {
+    @apply flex items-center p-0.5 pl-5 border border-gray-300 bg-gray-100 rounded-lg mb-2.5
+  }
+
+  .task-item.complete {
+    @apply bg-green-200 border-green-400
+  }
+
+  .delete-button {
+    @apply bg-slate-200 hover:bg-slate-300 ml-auto mr-2 px-1.5 text-gray-500 border-none rounded cursor-pointer
+  }
+
+  .task{
+    @apply md:mt-8 flex flex-col justify-center items-center gap-2 w-full
+  }
+
+  .task-input{
+    @apply w-full p-2 border bg-gray-100 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-400
+  }
+
+  .add-task{
+    @apply p-2 rounded-md transition-all duration-300
+  }
+
+  .not-allowed{
+    @apply bg-gray-300 text-gray-500 cursor-not-allowed opacity-95 w-full py-2 px-4 rounded-lg
+  }
+
+  .allowed{
+    @apply bg-gray-950 hover:bg-black text-white w-full py-2 px-4 rounded-lg
+  }
+

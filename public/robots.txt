@@ -1,0 +1,27 @@
+# robots.txt for My Todo App
+
+# Allow all web crawlers access to all areas of the site
+User-agent: *
+Disallow:
+
+# Disallow specific directories (if any) that you don't want indexed
+# For example, if you have a private directory, you can uncomment the line below:
+# Disallow: /private/
+
+# Allow specific bots to crawl everything
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Prevent web crawlers from crawling the following files
+User-agent: *
+Disallow: /src/         # Example: prevent access to source files
+Disallow: /public/      # Example: prevent access to public files if necessary
+Disallow: /node_modules/ # Example: prevent access to node modules
+
+# Sitemap location (if you have one)
+Sitemap: http://localhost:5173/
+
+# End of file

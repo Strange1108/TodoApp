@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/filtercontrol.tsx","./src/components/taskinput.tsx","./src/components/tasklist.tsx","./src/context/taskcontext.tsx","./src/hooks/usedebounce.ts","./src/types/tasktype.ts","./src/utils/localstoragehelpers.ts"],"version":"5.6.3"}
