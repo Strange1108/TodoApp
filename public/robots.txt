@@ -4,10 +4,6 @@
 User-agent: *
 Disallow:
 
-# Disallow specific directories (if any) that you don't want indexed
-# For example, if you have a private directory, you can uncomment the line below:
-# Disallow: /private/
-
 # Allow specific bots to crawl everything
 User-agent: Googlebot
 Allow: /
