@@ -5,8 +5,8 @@ This is a Task Management App built using React, TypeScript and styled with Tail
 
 ## Lighthouse Performance Report
 <p align="between">
-  <img src="https://github.com/user-attachments/assets/7a02dca7-377b-4fca-a2df-f0d9c43b077c" alt="Image 1" width="45%" height="295px"/>
-  <img src="https://github.com/user-attachments/assets/f351ff8a-7603-4106-8708-4a1f4173cc82" alt="Image 2" width="45%" height=""/>
+  <img src="https://github.com/user-attachments/assets/7a02dca7-377b-4fca-a2df-f0d9c43b077c" alt="Image 1" width="45%" height="277px"/>
+  <img src="https://github.com/user-attachments/assets/f351ff8a-7603-4106-8708-4a1f4173cc82" alt="Image 2" width="45%" />
 </p>
 
 
