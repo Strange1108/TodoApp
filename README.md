@@ -66,7 +66,7 @@ git clone https://github.com/Strange1108/TodoApp
 ### Navigate to the project directory:
 
 ```bash
-cd todo-app
+cd TodoApp
 ```
 ### Install dependencies:
 Make sure you have Node.js installed, then run:
